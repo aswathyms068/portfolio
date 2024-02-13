@@ -1,0 +1,254 @@
+*{margin:0px;
+    padding: 0px;
+    font-family: 'Sofia', cursive;
+  }
+  #container{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+  
+  
+  }
+  nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 98px;
+  
+  }
+  .logo{
+      width: 130px;
+  }
+  .list-items{
+    display: inline;
+    padding: 20px;
+    /* margin:0px 20px; */
+  }
+  .links{
+      text-decoration: none;
+      font-weight: 600;
+      color: black;
+  }
+  /* pseudoclass */
+  .links:hover{
+      color: hotpink;
+      text-decoration:underline
+  }
+  .home-content{
+      margin: 13% 0% 0% 8%;
+  }
+  #username{
+      font-size: 50px;
+      margin-bottom: 20px;
+  }
+  #lname{
+      color:orange;
+  }
+  #user-details{
+      line-height: 1.5;
+  }
+  #download{
+      text-decoration: none;
+      background-color: black;
+      color: white;
+      font-weight: 600;
+      padding: 10px;
+      border-radius: 10px;
+      margin-top: 30px;
+      display: inline-block;
+  }
+  
+  .home-images{
+      width: 45%;
+      height: 55%;
+      position: absolute;
+      right: 30px;
+      bottom: 0px;
+     
+  
+  }
+  .group1{
+      height: 100%;
+      position: absolute;
+      bottom: 128px;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: bottom 2s ,left 1s;
+  }
+  
+  .home-images:hover #shape{
+      bottom: 198px;
+  }
+  .home-images:hover #lady{
+      left: 40%;
+  }
+  #about{
+      margin: 14% 8% 0px 8%;
+  
+  }
+  .section-head{
+      text-align: center;
+  
+  }
+  .mainhead{
+      font-size: 30px;
+  }
+  .subhead{
+      font-size: 20px;
+      color: green;
+  }
+  .about-body{
+      display: flex;
+      margin-top: 2px;
+      align-items: center;
+      justify-content: center;
+  }
+  .about-image{
+      width: 100%;
+  }
+  #skill{
+      margin: 8% 8% 0px 8%;
+  }
+  .skill-content{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 2rem;
+      margin-top: 20px;
+      align-items: center;
+      
+      
+  
+  }
+  .myskill{
+      width: 100%;
+  }
+  .bar{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:1rem 0px;
+      position: relative;
+  }
+  .bar-head,.bar-percent{
+      font-weight: 500;
+      font-size: 1.1rem;
+  }
+  .base-bar{
+      width: 100%;
+      height: 0.5rem;
+      background-color: black;
+      border-radius: 0.5rem;
+      position: absolute;
+      bottom: 0px;
+  }
+  .html-bar{
+      width: 90%;
+      background-color: orange;
+  }
+  
+  .css-bar{
+      width: 85%;
+      background-color: orange;
+  }
+  
+  .js-bar{
+      width: 81%;
+      background-color: orange;
+  }
+  
+  .react-bar{
+      width: 83%;
+      background-color: orange;
+  }
+  #contact{
+      margin: 8%;
+  }
+  .icon-collection{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: -5px;
+  }
+  .icon{
+      width: 50px;
+      height: 50px;
+      /* border: solid 1px; */
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 10px;
+  }
+  .icon:hover{
+      background-image: linear-gradient( to top left ,pink ,yellow,pink,yellow,pink,yellow,pink
+  
+      );
+  }
+  .brand{
+      color:black;
+      font-size: 30px;
+  }
+  .icon:hover .brand{
+      color:darkmagenta;
+      
+      /* animation: alternate-reverse 2s; */
+      animation: rotate 2s;
+  }
+  @keyframes rotate{
+      0%{
+          transform: rotate(30deg);
+      }
+      20%{
+          transform: rotate(-30deg);
+      }
+      40%{
+          transform: rotate(30deg);
+      }
+      60%{
+          transform: rotate(-30deg);
+      }
+      80%{
+          transform: rotate(30deg);
+      }
+      100%{
+          transform: rotate(-30deg);
+      }
+  }
+  #copy-right{
+      font-weight: 600;
+      text-align: center;
+  }
+  .up-arrow{
+      float:right;
+      margin: -40px 30px 30px 0px;
+  }
+  html{
+      scroll-behavior: smooth ;
+  }
+  ::-webkit-scrollbar{
+      width: 10px;
+      border-radius: 20px;
+  }
+  ::-webkit-scrollbar-track
+  {
+      background-color: pink;
+  }
+  ::-webkit-scrollbar-thumb{
+      background-color: orange;
+      border-radius: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
